@@ -1,0 +1,72 @@
+#include<stdio.h>
+#include "queue.h"
+
+int main()
+{
+	struct queue q1;
+	initialize(&q1);
+	display_queue(&q1);
+	insert(&q1,2);
+	display_queue(&q1);
+	insert(&q1,5);
+	display_queue(&q1);
+	insert(&q1,3);
+	display_queue(&q1);
+	insert(&q1,8);
+	display_queue(&q1);
+	insert(&q1,2);
+	display_queue(&q1);
+	insert(&q1,5);
+	display_queue(&q1);
+	insert(&q1,1);
+	display_queue(&q1);
+	insert(&q1,0);
+	display_queue(&q1);
+	insert(&q1,-5);
+	display_queue(&q1);
+	insert(&q1,6);
+	display_queue(&q1);
+	insert(&q1,7);
+	display_queue(&q1);
+	insert(&q1,25);
+	display_queue(&q1);
+	printf("The deleted element is %d\n", delete(&q1));
+	display_queue(&q1);
+	printf("The deleted element is %d\n", delete(&q1));
+	display_queue(&q1);
+	printf("The deleted element is %d\n", delete(&q1));
+	display_queue(&q1);
+	printf("The deleted element is %d\n", delete(&q1));
+	display_queue(&q1);
+	printf("The deleted element is %d\n", delete(&q1));
+	display_queue(&q1);
+	printf("The deleted element is %d\n", delete(&q1));
+	display_queue(&q1);
+	printf("The deleted element is %d\n", delete(&q1));
+	display_queue(&q1);
+	printf("The deleted element is %d\n", delete(&q1));
+	display_queue(&q1);
+	printf("The deleted element is %d\n", delete(&q1));
+	display_queue(&q1);
+	printf("The deleted element is %d\n", delete(&q1));
+	display_queue(&q1);
+	printf("The deleted element is %d\n", delete(&q1));
+	display_queue(&q1);
+	printf("The deleted element is %d\n", delete(&q1));
+	display_queue(&q1);
+	printf("The deleted element is %d\n", delete(&q1));
+	display_queue(&q1);
+	printf("The deleted element is %d\n", delete(&q1));
+	display_queue(&q1);
+	printf("The deleted element is %d\n", delete(&q1));
+	display_queue(&q1);
+	insert(&q1,8);
+	display_queue(&q1);
+	insert(&q1,2);
+	display_queue(&q1);
+	insert(&q1,5);
+	display_queue(&q1);
+	insert(&q1,1);
+	display_queue(&q1);
+	return 0;
+}
